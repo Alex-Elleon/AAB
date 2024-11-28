@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 import cors from "cors";
 import express from "express";
 import dotenv from "dotenv";
-import { error } from "console";
 import {test} from "./Backend/controllers/alumno.contoller.js";
 
 dotenv.config()
