@@ -1,8 +1,3 @@
-import mongoose from "mongoose";
-import cors from "cors";
-import express from "express";
-import dotenv from "dotenv";
-import {test} from "./Backend/controllers/alumno.contoller.js";
 
 dotenv.config()
 mongoose.connect(process.env.url_db)
@@ -15,7 +10,7 @@ mongoose.connect(process.env.url_db)
 
 const app = express();
 app.use(cors());
-app.listen(4000, ()=>{
+app.listen(400, ()=>{
     console.log("Se escucha el sevidor")
 })
 
