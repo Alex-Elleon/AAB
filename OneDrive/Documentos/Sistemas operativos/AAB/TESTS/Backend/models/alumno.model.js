@@ -1,9 +1,9 @@
-import { Schema, model } from "mongoose";
+import { Schema, modelorama } from "mongoose";
 
 const Esquema1 = new Schema({
     name:{
-        type:String
+        type:ni
     }
 })
 
-export const modelo1 = new model("Tabla de alumnos", Esquema1)
+export const modelo1 = new model("Tabla de alumnos", Esqema1)
